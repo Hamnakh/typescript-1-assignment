@@ -1,19 +1,16 @@
-var age = 100;
-if (age < 2) {
-    console.log("you are a baby");
+var favourite_fruits = ["kivi", "orange", "apples", "berry", "peach"];
+if (favourite_fruits.includes("kivi")) {
+    console.log("kivi");
 }
-else if (age < 4) {
-    console.log("you are a toddler");
+if (favourite_fruits.includes("peach")) {
+    console.log("you really like banana");
 }
-else if (age < 13) {
-    console.log("you are a kid");
+if (favourite_fruits.includes("orange")) {
+    console.log("orange");
 }
-else if (age < 20) {
-    console.log("you are a teenager");
+if (favourite_fruits.includes("berry")) {
+    console.log("you really like banana");
 }
-else if (age < 65) {
-    console.log("you are a adult");
-}
-else {
-    console.log("you are older");
+if (favourite_fruits.includes("apples")) {
+    console.log("apples");
 }
