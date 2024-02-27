@@ -1,4 +1,3 @@
-console.log(4 + 4);
-console.log(12 - 4);
-console.log(4 * 2);
-console.log(16 / 2);
+var favNumber = 10;
+var message = "Mine favorite Number is:";
+console.log(message, favNumber);
