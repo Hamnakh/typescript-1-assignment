@@ -1,8 +1,2 @@
-// Addition
-console.log(4 + 2);
-// subtraction
-console.log(12 - 4);
-// multiplication
-console.log(4 * 2);
-// division
-console.log(16 / 2);
+let friendsName = ["hamna", "fiza",  "minhaj", "aijaz"];
+friendsName.forEach(friendname => console.log(friendname));
