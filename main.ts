@@ -1,7 +1,12 @@
-//let allen_colour = "green"
-//if (allen_colour == "green")
-//console.log("you earn 5 points")
-
-let allen_colour : string = "red"
-if (allen_colour == "green")
-console.log("no output")
+//let alien_colour = "green"
+//if (alien_colour == "green") {
+//console.log("player just eraned 5 points for shooting the alien")
+//} else {
+//console.log("player just earned 10 Points")
+//}
+let alien_colour = "red"
+if (alien_colour == "red") {
+console.log("player just eraned 5 points for shooting the alien")
+} else {
+console.log("player just earned 10 Points")
+}
