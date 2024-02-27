@@ -1,1 +1,2 @@
-console.log("Hellow world, This is me hamna khan");
+var personName = "hamna khan";
+console.log("hello", personName, "would you like to learn some python today?");
