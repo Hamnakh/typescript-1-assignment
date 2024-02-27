@@ -1,2 +1,2 @@
-var friendsName = ["hamna", "fiza", "minhaj", "aijaz"];
-friendsName.forEach(function (friendName) { return console.log("Hello ".concat(friendName, ", How are you?")); });
+var transportationModes = ["Sport bike", "Bus", "Car", "Sport car",];
+transportationModes.forEach(function (mode) { return console.log("I would like to own a ".concat(mode)); });
