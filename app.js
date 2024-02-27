@@ -1,11 +1,6 @@
-// create two objects
-var book = {
-    name: 'ESSENTIAL TYPESCRIPT',
-    price: 450
-};
-var apple = {
-    name: 'apple',
-    price: 200
-};
-console.log("book name: ".concat(book.name, ", price: $").concat(book.price));
-console.log("apple name: ".concat(apple.name, ", price: $").concat(apple.price));
+var array = ['talha', 'taha', 3, 5, 8, "hamza"];
+console.log(array[5]);
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
+console.log(array[4]);
