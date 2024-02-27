@@ -1,4 +1,4 @@
-let famousPerson = "Albert Einstein";
-
-let message = ("once said,\"A person who never made a mistake never tried anything new.\"");
-console.log(famousPerson , message)
+let whitespaceName = "\n\t hamna khan \t\n";
+console.log(whitespaceName);
+let withoutwhitespaceName = whitespaceName.trim();
+console.log(withoutwhitespaceName);
