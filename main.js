@@ -1,2 +1,1 @@
-var personName = "hamna khan";
-console.log("hello", personName, "would you like to learn some python today?");
+console.log("Albert Einstein once said,\"A person who never made a mistake nevertried anything new.\"");
