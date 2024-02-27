@@ -1,38 +1,34 @@
-//let users : string [] = ["hamna", "amna", "aijaz", "night", "arshad"]
-//for(let user of users) {
-//   if (user === "hamna") {
-//     console.log('Hello hamna, would you like to see a status report?')
-// } else {
-//     console.log('Hello ${user}, thank you for loggin in again') 
-// }
-//}
-//Q.31
-var users = ["hamna", "amna", "aijaz", "night", "arshad"];
-//if (users.length === 0) {
-// console.log ("we need to find users some users!")   
+//let numbers : number [] = [1,2,3,4,5,6,7,8,9]
+//for (let number of numbers) {
+//if (number === 1) {
+//   console.log (`${number}st`)
+//} else if (number === 2) {
+//   console.log(`${number}nd`)
+//} else if (number === 3) {
+//   console.log(`${number}rd`)
 //} else {
-//  for (let user of users){
-//      if ( user === "hamna") {
-//          console.log('Hello hamna, would you like to see a status report?') 
-//         } else {
-//         console.log('Hello ${user}, thank you for loggin in again')
-//          }
-//     }
-//  }
-//users = []
-//if (users.length === 0) {
-//  console.log ("we need to find some users!")
+//   console.log (`${number}th`)
 //}
-//Q.32
-var current_users = ["admin", "Eric", "Ali", "Hamza", "fatima"];
-var new_users = ["admin", "fatima", "Aliza", "Hasseb", "Noor"];
-var current_user_lower = current_users.map(function (user) { return user.toLowerCase(); });
-for (var _i = 0, new_users_1 = new_users; _i < new_users_1.length; _i++) {
-    var new_user = new_users_1[_i];
-    if (current_user_lower.includes(new_user.toLowerCase())) {
-        console.log("Sorry ".concat(new_user, ", that name is taken"));
-    }
-    else {
-        console.log("yes ".concat(new_user, ", is still in avaliable list"));
-    }
+//}
+//Q.34
+//let favourite_pizza : string [] = ["pepperoni" , "chicken" , "veg"]
+//for (let pizza of favourite_pizza) {
+//   console.log(pizza)
+//} 
+//console.log("\n")
+//for (let pizza of favourite_pizza) {
+//  console.log(` I really like ${pizza} pizza!`)
+//}
+//console.log ("nI really like to eat pizza!")
+//Q.35
+var animals = ["cat", "lion", "dog"];
+for (var _i = 0, animals_1 = animals; _i < animals_1.length; _i++) {
+    var animal = animals_1[_i];
+    console.log(animal);
 }
+console.log("\n");
+for (var _a = 0, animals_2 = animals; _a < animals_2.length; _a++) {
+    var animal = animals_2[_a];
+    console.log(" A ".concat(animal, " has a tail"));
+}
+console.log("\n all o these are great pets! but i love cats more");

@@ -1,40 +1,35 @@
-//let users : string [] = ["hamna", "amna", "aijaz", "night", "arshad"]
-//for(let user of users) {
- //   if (user === "hamna") {
-   //     console.log('Hello hamna, would you like to see a status report?')
-   // } else {
-   //     console.log('Hello ${user}, thank you for loggin in again') 
-   // }
-//}
-
-//Q.31
-let users : string [] = ["hamna", "amna", "aijaz", "night", "arshad"]
-
-//if (users.length === 0) {
-// console.log ("we need to find users some users!")   
+//let numbers : number [] = [1,2,3,4,5,6,7,8,9]
+//for (let number of numbers) {
+//if (number === 1) {
+ //   console.log (`${number}st`)
+//} else if (number === 2) {
+ //   console.log(`${number}nd`)
+//} else if (number === 3) {
+ //   console.log(`${number}rd`)
 //} else {
-  //  for (let user of users){
-  //      if ( user === "hamna") {
-  //          console.log('Hello hamna, would you like to see a status report?') 
-    
-   //         } else {
-   //         console.log('Hello ${user}, thank you for loggin in again')
-  //          }
-   //     }
-  //  }
-//users = []
-//if (users.length === 0) {
-  //  console.log ("we need to find some users!")
+ //   console.log (`${number}th`)
+//}
 //}
 
-//Q.32
-let current_users : string [] = ["admin", "Eric", "Ali", "Hamza", "fatima"]
-let new_users : string [] = ["admin", "fatima", "Aliza", "Hasseb", "Noor"]
-let current_user_lower : string [] =current_users.map(user => user.toLowerCase())
-for (let new_user of new_users) {
-    if (current_user_lower.includes (new_user.toLowerCase())) {
-        console.log(`Sorry ${new_user}, that name is taken`)
-    } else {
-        console.log(`yes ${new_user}, is still in avaliable list`)
-    }
+//Q.34
+//let favourite_pizza : string [] = ["pepperoni" , "chicken" , "veg"]
+//for (let pizza of favourite_pizza) {
+ //   console.log(pizza)
+//} 
+//console.log("\n")
+
+//for (let pizza of favourite_pizza) {
+  //  console.log(` I really like ${pizza} pizza!`)
+//}
+//console.log ("nI really like to eat pizza!")
+
+//Q.35
+let animals : string [] = ["cat", "lion", "dog"]
+for (let animal of animals) {
+    console.log(animal)
 }
+console.log ("\n")
+for (let animal of animals) {
+    console.log (` A ${animal} has a tail`)
+}
+console.log ("\n all o these are great pets! but i love cats more")
