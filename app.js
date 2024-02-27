@@ -1,6 +1,11 @@
-var languages = ['english', 'urdu', 'hindi', 'ffrench', 'arabi'];
-console.log("list of languages:");
-for (var _i = 0, languages_1 = languages; _i < languages_1.length; _i++) {
-    var top_1 = languages_1[_i];
-    console.log(top_1);
-}
+// create two objects
+var book = {
+    name: 'ESSENTIAL TYPESCRIPT',
+    price: 450
+};
+var apple = {
+    name: 'apple',
+    price: 200
+};
+console.log("book name: ".concat(book.name, ", price: $").concat(book.price));
+console.log("apple name: ".concat(apple.name, ", price: $").concat(apple.price));
