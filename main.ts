@@ -1,12 +1,8 @@
-//let alien_colour = "green"
-//if (alien_colour == "green") {
-//console.log("player just eraned 5 points for shooting the alien")
-//} else {
-//console.log("player just earned 10 Points")
-//}
-let alien_colour = "red"
-if (alien_colour == "red") {
-console.log("player just eraned 5 points for shooting the alien")
+let alien_color: string = "red"
+if (alien_color == "green") {
+    console.log("5 points")
+} else if (alien_color == "yellow") {
+    console.log("10 points")
 } else {
-console.log("player just earned 10 Points")
+    console.log("15 points")
 }
