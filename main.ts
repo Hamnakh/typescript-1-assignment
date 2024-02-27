@@ -1,35 +1,49 @@
-//let numbers : number [] = [1,2,3,4,5,6,7,8,9]
-//for (let number of numbers) {
-//if (number === 1) {
- //   console.log (`${number}st`)
-//} else if (number === 2) {
- //   console.log(`${number}nd`)
-//} else if (number === 3) {
- //   console.log(`${number}rd`)
-//} else {
- //   console.log (`${number}th`)
+//function makeshirt(size: string, text: string): void {
+//    console.log(`you order a ${size} shirt that says ${text}`)
 //}
+//makeshirt ('large','"i love typescript"')
+//makeshirt('medium','"i need a big shirt"')
+
+//Q.37
+//function makeshirt(size: string = 'large', text: string = ' I love typescript'): void {
+//console.log(`you have order a ${size}, shirt that says ${text}`)
 //}
+//makeshirt();
+//makeshirt('medium')
 
-//Q.34
-//let favourite_pizza : string [] = ["pepperoni" , "chicken" , "veg"]
-//for (let pizza of favourite_pizza) {
- //   console.log(pizza)
-//} 
-//console.log("\n")
+//different message
+//makeshirt('small', 'I need a big shirt to wear')
 
-//for (let pizza of favourite_pizza) {
-  //  console.log(` I really like ${pizza} pizza!`)
+//Q.38
+//function describe_city(city: string, country: string = 'Pakistan'): void {
+ //   console.log(`${city}  ${country}`)
 //}
-//console.log ("nI really like to eat pizza!")
+//describe_city('Karachi')
+//describe_city('France', 'Europe')
+//describe_city('Lahore', 'punjab')
 
-//Q.35
-let animals : string [] = ["cat", "lion", "dog"]
-for (let animal of animals) {
-    console.log(animal)
+//Q.39
+//function cityCountry(city: string, country: string):string { 
+//    return `${city}, ${country}`
+//}
+//let c1 = cityCountry('lahore', 'pakistan')
+//let c2 = cityCountry('tokyo', 'japan')
+//let c3 = cityCountry('paris', 'france')
+//console.log(c1)
+//console.log(c2)
+//console.log(c3)
+
+//Q.40
+function makeAlbum (artist: string, title: string): {artist: string; title: string} {
+    const dictionaries = {
+        artist: artist.charAt(0).toUpperCase() + artist.slice(1),
+        title: title.charAt(0).toUpperCase() + title.slice(1)
+    };
+    return dictionaries;
 }
-console.log ("\n")
-for (let animal of animals) {
-    console.log (` A ${animal} has a tail`)
-}
-console.log ("\n all o these are great pets! but i love cats more")
+let album = makeAlbum("ali", "light")
+console.log(album)
+album = makeAlbum("bilal", "red wave")
+console.log(album)
+album = makeAlbum("hamza", "amna")
+console.log(album)

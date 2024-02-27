@@ -1,34 +1,44 @@
-//let numbers : number [] = [1,2,3,4,5,6,7,8,9]
-//for (let number of numbers) {
-//if (number === 1) {
-//   console.log (`${number}st`)
-//} else if (number === 2) {
-//   console.log(`${number}nd`)
-//} else if (number === 3) {
-//   console.log(`${number}rd`)
-//} else {
-//   console.log (`${number}th`)
+//function makeshirt(size: string, text: string): void {
+//    console.log(`you order a ${size} shirt that says ${text}`)
 //}
+//makeshirt ('large','"i love typescript"')
+//makeshirt('medium','"i need a big shirt"')
+//Q.37
+//function makeshirt(size: string = 'large', text: string = ' I love typescript'): void {
+//console.log(`you have order a ${size}, shirt that says ${text}`)
 //}
-//Q.34
-//let favourite_pizza : string [] = ["pepperoni" , "chicken" , "veg"]
-//for (let pizza of favourite_pizza) {
-//   console.log(pizza)
-//} 
-//console.log("\n")
-//for (let pizza of favourite_pizza) {
-//  console.log(` I really like ${pizza} pizza!`)
+//makeshirt();
+//makeshirt('medium')
+//different message
+//makeshirt('small', 'I need a big shirt to wear')
+//Q.38
+//function describe_city(city: string, country: string = 'Pakistan'): void {
+//   console.log(`${city}  ${country}`)
 //}
-//console.log ("nI really like to eat pizza!")
-//Q.35
-var animals = ["cat", "lion", "dog"];
-for (var _i = 0, animals_1 = animals; _i < animals_1.length; _i++) {
-    var animal = animals_1[_i];
-    console.log(animal);
+//describe_city('Karachi')
+//describe_city('France', 'Europe')
+//describe_city('Lahore', 'punjab')
+//Q.39
+//function cityCountry(city: string, country: string):string { 
+//    return `${city}, ${country}`
+//}
+//let c1 = cityCountry('lahore', 'pakistan')
+//let c2 = cityCountry('tokyo', 'japan')
+//let c3 = cityCountry('paris', 'france')
+//console.log(c1)
+//console.log(c2)
+//console.log(c3)
+//Q.40
+function makeAlbum(artist, title) {
+    var dictionaries = {
+        artist: artist.charAt(0).toUpperCase() + artist.slice(1),
+        title: title.charAt(0).toUpperCase() + title.slice(1)
+    };
+    return dictionaries;
 }
-console.log("\n");
-for (var _a = 0, animals_2 = animals; _a < animals_2.length; _a++) {
-    var animal = animals_2[_a];
-    console.log(" A ".concat(animal, " has a tail"));
-}
-console.log("\n all o these are great pets! but i love cats more");
+var album = makeAlbum("ali", "light");
+console.log(album);
+album = makeAlbum("bilal", "red wave");
+console.log(album);
+album = makeAlbum("hamza", "amna");
+console.log(album);
