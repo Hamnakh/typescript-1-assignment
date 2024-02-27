@@ -1,4 +1,4 @@
-var whitespaceName = "\n\t hamna khan \t\n";
-console.log(whitespaceName);
-var withoutwhitespaceName = whitespaceName.trim();
-console.log(withoutwhitespaceName);
+console.log(4 + 4);
+console.log(12 - 4);
+console.log(4 * 2);
+console.log(16 / 2);
