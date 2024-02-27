@@ -1,16 +1,6 @@
-var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
-var places = ['cape town', 'delhi', 'faisalabad', 'bankok', 'ahmedabad'];
-console.log('original :' + places);
-console.log('original :' + places);
-console.log('copy ' + __spreadArray([], places, true).sort().reverse());
-console.log('copy ' + __spreadArray([], places, true).sort().reverse());
-console.log('original :' + places.sort());
-console.log('original :' + places.sort().reverse());
+//import{ guestList } from '../Q.14_guestList/app.js'
+//console.log(`n\ PRINTING NUMBER OF GUEST INVITED`)
+//console.log(`we had finally invited ${guestList.length} from excersise 14`)
+var invitations = ["ali", "bilal"];
+var count_invitations = invitations.length;
+console.log("".concat('count_invitationas', " people will come to the dinner"));

@@ -1,13 +1,8 @@
-let places : string [] = ['cape town', 'delhi', 'faisalabad', 'bankok', 'ahmedabad' ]
-console.log('original :' + places);
+//import{ guestList } from '../Q.14_guestList/app.js'
+//console.log(`n\ PRINTING NUMBER OF GUEST INVITED`)
+//console.log(`we had finally invited ${guestList.length} from excersise 14`)
 
-console.log('original :' + places);
+let invitations : string [] = ["ali", "bilal"]
+let count_invitations : number = invitations.length
 
-console.log('copy ' + [...places].sort().reverse());
-
-console.log('copy ' + [...places].sort().reverse());
-
-console.log('original :' + places.sort());
-
-
-console.log('original :' + places.sort().reverse());
+console.log(`${'count_invitationas'} people will come to the dinner`)
