@@ -1,16 +1,14 @@
-var magicianNames = ["talha", "taha", "aijaz"];
-function showMaagicians(magicians) {
-    for (var _i = 0, magicians_1 = magicians; _i < magicians_1.length; _i++) {
-        var magician = magicians_1[_i];
-        console.log(magician);
+function sandwish() {
+    var items = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        items[_i] = arguments[_i];
+    }
+    console.log("sandwish other");
+    for (var i = 0; i < items.length; i++) {
+        console.log("- ".concat(items[i]));
     }
 }
-function make_great(magicians) {
-    var greatMagicians = magicians.map(function (magician) { return "the\n       Great ".concat(magician); });
-    return greatMagicians;
-}
-var greatMagiciansNames = make_great(magicianNames);
-console.log("original Magicians:");
-showMaagicians(magicianNames);
-console.log("\nGreat Magicians:");
-showMaagicians(greatMagiciansNames);
+console.log("enjoy your sandwish mehak alamgir");
+sandwish('capsicum', 'tomato', 'chicken');
+sandwish('beef', 'chees');
+sandwish('garlic chicken', 'mayo sauce');

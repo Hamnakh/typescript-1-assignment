@@ -1,26 +1,12 @@
-const magicianNames: string[] = ["talha", "taha", "aijaz"]
-
-
-
-function showMaagicians(magicians: string[]): void {
-    for (const magician of magicians) {
-    console.log(magician);
-    }
-}
-
-
-
-function make_great(magicians: string[]): string[] {
-      const greatMagicians: string[] = magicians.map(magician => `the
-       Great ${magician}`);
-      return greatMagicians;
+function sandwish(...items: string[]): void {
+     console.log("sandwish other");
+ 
+    for (let i = 0; i < items.length; i++) {
+        console.log(`- ${items[i]}`)
      }
-      
-  
-      const greatMagiciansNames: string[] = make_great(magicianNames);
-      console.log("original Magicians:");
-      showMaagicians(magicianNames);
-
-
-      console.log("\nGreat Magicians:");
-      showMaagicians(greatMagiciansNames);
+    }
+    console.log("enjoy your sandwish mehak alamgir")
+ 
+    sandwish('capsicum', 'tomato', 'chicken')
+    sandwish('beef', 'chees')
+    sandwish('garlic chicken', 'mayo sauce')
